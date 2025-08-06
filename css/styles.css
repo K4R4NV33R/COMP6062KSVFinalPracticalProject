@@ -1,0 +1,86 @@
+/* Spacing for button containers */
+.clickButton {
+    margin-top: 10px;
+}
+
+/* Basic button style */
+.button {
+    background-color: #1e7e34; 
+    color: white;
+    padding: 10px;
+}
+
+/* User profile card box */
+.userData {
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Weather section box */
+.weatherData {
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Dictionary section box */
+.dictionary {
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Page header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 100px;
+    border: 2px solid #888;
+    margin: 50px 80px;
+    text-align: center;
+}
+
+/* All section headings */
+h2 {
+    color: #00bfff;
+}
+
+/* Text input styling */
+input {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #555;
+}
+
+/* Profile image reaction */
+img {
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Page background and text */
+body {
+    background-color: #121212;
+    color: #ddd;
+}
+
+/*layout changes for cell phones */
+@media (min-width: 750px) {
+    input {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
