@@ -37,7 +37,7 @@ const app = Vue.createApp({
         this.getUserProfile()
         this.getWeatherInfo()
     },
-
+    computed: {},
     methods: {
 
         // Random user profile fetch
