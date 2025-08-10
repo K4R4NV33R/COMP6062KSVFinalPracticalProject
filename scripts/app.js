@@ -84,5 +84,5 @@ const app = Vue.createApp({
     }
 })
 
-// Attach .js to the page
+// Attaching  .js to the page
 app.mount('#app')
